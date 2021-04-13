@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META tags help search engines identify your content more easily -->
+	<meta charset="utf-8" /> 
+	<meta name="author" content="Angela Chen">
+	<meta name="keywords" content="One of the Top Ten Sites in the World For Viewing a Cityscape - USA TODAY">
+	<meta name="description" content="Official Site of the Duquesne Incline">
+	<title>Duquesne Incline</title>
+    <!-- External Links to CSS files -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;900&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="all" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css" />
+    
+    <!-- External Links to JS files -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.lightbox.min.js"></script>
+    <!-- Functions from lab 5 -->
+    <script>
+		$(function() {
+		  	$( "#tabs" ).tabs({
+		    	event: "mouseover"
+		  	});
+		});
+    </script>
+    <script>
+		$(function() {
+			$( "#gallery a" ).lightBox();
+		});
+    </script>
+</head>
+
+<body>
+    <div id="container">
+    <div id="top_row">
+        <header>
+            <h1>Duquesne Incline</h1>
+            <h3>"A Top-10 Site in the World For Viewing a Cityscape" - USA TODAY</h3>
+        </header>
+        <nav> 
+            <a href="index.html" title="Link to home page">Visit Us</a> 
+            <a class="selected" href="tours.html" title="Link to information on tours at the Incline">Featured Tours</a>
+            <a href="history.html" title="Link to Duquesne Incline's historical facts">History</a>
+        </nav>
+    </div><!-- Close top_row -->
+
+    <div id="content">
+        <h3>Featured Tours</h3>
+        <div id="tabs"><!--create 4 tabs to display tour info -->
+            <ul>
+                <li><a href="#tabs-1">Group Tours</a></li>
+                <li><a href="#tabs-2">Field Trips</a></li>
+                <li><a href="#tabs-3">Patch Program</a></li>
+                <li><a href="#tabs-4">City Tours</a></li>
+            </ul>
+
+            <div id="tabs-1"><!-- Group Tours -->
+                <p>The original hoisting equipment including its famous wooden gear teeth can be viewed during our tour.</p>
+                <h4>The Tour Includes:</h4>
+                <ul>
+                    <li>A pictorial history of Pittsburgh's industry, inclines, sports venues, and natural disasters.</li>
+                    <li>A visit to the machine room to observe the original hoisting equipment from 1877 in operation.</li>
+                    <li>A panoramic view of Downtown Pittsburgh from the observation deck 400 feet above the three rivers.</li>
+                    <li>Also allow time for photos and a visit to our gift shop for post cards and souvenirs.</li>
+                </ul>
+                <hr>
+                <h4>Contact Tom Reinheimer at 412-381-1665 or E-mail <a href="mailto:tomreinheimer@duquesneincline.org">tomreinheimer@duquesneincline.org</a> for details, or schedule a tour <a href="tours.html#scheduletour" title="Link to tour-scheduling form">online.</a></h4>
+            </div>
+
+            <div id="tabs-2"><!-- Field Trips -->
+                <p>A free field trip program is available for students and youth groups of ten or more daily – except Saturdays and Sundays after 12:00 noon due to weekend crowds and limited space.</p>
+                <h4>The Tour Includes:</h4>
+                <ul>
+                    <li>A teacher's lesson packet for students' specific grade level.</li>
+                    <li>A round trip ride on the Duquesne Incline.</li>
+                    <li>A history of inclines in Pittsburgh.</li>
+                    <li>A discussion about Pittsburgh's industrial past.</li>
+                    <li>A visit to the machine room to observe the original hoisting equipment in operation and learn about the engineers who built it.</li>
+                    <li>A panoramic view of Downtown Pittsburgh and The North Shore from our observation deck 400 feet above the three rivers.</li>
+                    <li>A brief history of the French and Indian War from which the city arose.</li>
+                </ul>
+                <hr>
+                <h4>Contact Tom Reinheimer at 412-381-1665 or E-mail <a href="mailto:tomreinheimer@duquesneincline.org">tomreinheimer@duquesneincline.org</a> for details, or schedule a tour <a href="tours.html#scheduletour" title="Link to tour-scheduling form">online.</a></h4>
+            </div>
+
+            <div id="tabs-3"><!-- Patch Program -->
+            <p>The scout patch program is available daily – except Saturdays and Sundays after 12:00 noon due to weekend crowds and limited space.</p>
+            <p>Ride, learn and earn a Patch!</p>
+                <h4>For $6.00 per scout, the program Includes:</h4>
+                <ul>
+                    <li>A round trip ride on the Duquesne Incline.</li>
+                    <li>A discussion about inclines in Pittsburgh.</li>
+                    <li>A pictorial history of Pittsburgh's industrial past.</li>
+                    <li>A visit to the machine room to observe the original hoisting equipment from 1877 in operation.</li>
+                    <li>A panoramic view of Downtown Pittsburgh and The North Shore from our observation deck 400 feet above the three rivers.</li>
+                    <li>A colorful patch depicting The Duquesne Incline.</li>
+                    <li>A fun Incline quiz to take with you.</li>
+                </ul>
+                <hr>
+                <h4>Contact Tom Reinheimer at 412-381-1665 or E-mail <a href="mailto:tomreinheimer@duquesneincline.org" title="Link to Youtube page of the Incline">tomreinheimer@duquesneincline.org</a> for details, or schedule a tour <a href="tours.html#scheduletour" title="Link to tour-scheduling form">online.</a></h4>
+            </div>
+
+            <div id="tabs-4"><!-- City Tours -->
+                <h4>City Tours that Feature the Duquesne Incline:</h4>
+                <ul>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.pghtoursandmore.net" title="Link to official site of Pitt Tours and More">PITTSBURGH TOURS AND MORE</a> - Pittsburgh Movie Locations, Sports, Breweries, Wineries and More. 412-323-4707</li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.mollystrolleyspgh.com" title="Link to official site of Molly's Tolleys">MOLLY'S TOLLEYS</a> 412-281-2055</li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.riversofsteel.com" title="Link to official site of Rivers of Steel">RIVERS OF STEEL</a> 412-464-4020 or 412-381-8687</li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.pghtours.com" title="Link to official site of Pitt Tour Company">THE PITTSBURGH TOUR COMPANY</a> - Hop on/Hop off Double Decker tour buses from London. 412-381-8687</li>
+                </ul>
+                <h4>Things to do After Incline Visit:</h4>
+                <ul><li><a target="_blank" rel="noopener noreferrer" href="https://www.tripadvisor.com/AttractionsNear-g53449-d199154-Duquesne_Incline-Pittsburgh_Pennsylvania.html" title="Link to Tripadvisor's recommendations page">The 10 BEST Things to Do near Duquesne Incline</a></li></ul>
+            </div>
+        </div><!-- Close tabs -->
+
+		<div id="content-gallery">
+			<p>Click on the thumbnail below to checkout photos from our tours.</p>
+			    <div id="gallery">
+				<div id="galleryThumbnail1"><div id="thmbnlShadow1">
+				    <a href="images/gear1.jpeg" title="The original hoisting equipment including its famous wooden gear teeth can be viewed during group tours.">
+				    <img src="images/gear1s.jpg" alt="The Incline's wooden gear teeth"/></a></div></div>
+			    
+                <div id="galleryThumbnail2"><div id="thmbnlShadow2">
+                        <a href="images/nytour.jpeg" title="The Plainedge High School Choir from Long Island N.Y. on a school trip at the Duquesne Incline.">
+                        <img src="images/nytours.jpg" alt="Plainedge High School Choir at the Incline"/></a></div></div>
+                   
+				<div id="galleryThumbnail3"><div id="thmbnlShadow3">
+				    <a href="images/girlstour1.jpg" title="Just wanted to say thank you again for helping coordinate our tour. We all had a great time - Chuck did a wonderful job! Tell him thanks again for us. - Girl Scout Troop 54377">
+				    <img src="images/girlstour1s.jpg" alt="Girl Scout Troop 54377 at the Incline"></a></div></div>
+			   
+				<div id="galleryThumbnail4"><div id="thmbnlShadow4">
+				    <a href="images/girlstour2.jpg" title="Just wanted to say thank you again for helping coordinate our tour. We all had a great time - Chuck did a wonderful job! Tell him thanks again for us. - Girl Scout Troop 54377">
+				    <img src="images/girlstour2s.jpg" alt="Girl Scout Troop 54377 at the Incline"></a></div></div>
+			    </div><!-- Close gallery -->
+		</div><br/><br/><br/><br/><br/><br/>
+
+        <div id="scheduletour"><!-- form to schedule tour -->
+        <h3>Schedule a Tour</h3>
+        <h4>Please fill out the form below to schedule a tour.</h4>
+        You will receive confirmation of your request by phone or email.
+        <form onsubmit="return validate()">
+            <fieldset>
+                <legend>Tour Information</legend>
+                <label for="type">Tour Type</label><br/>
+                <select id="type">
+                    <option value="Google">Group Tour</option>
+                    <option value="news">Field Trip</option>
+                    <option value="friend">Scout Patch Program</option>
+                </select><br/><br/>
+                <label for="datearrive">Date of Arrival</label><br/>
+                <input type="date" id="datearrive" name="datearrive" value="" size="20" required><br/><br/>
+                <label for="timearrive">Time of Arrival</label><br/>
+                <input type="text" id="timearrive" name="timearrive" size="20" maxlength="50" required><br/><br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="uname">Name</label><br/>
+                <input type="text" id="uname" name="uname" size="20" maxlength="50" required><br/><br/>
+                <label for="phone">Phone (no dashes or spaces):</label><br/>
+                <input type="text" id="phone" name="phone" value="" required ><br/><br/>
+                <label for="email">Email address</label><br/>
+                <input type="email" id="email" name="email" maxlength="50" required><br/><br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Number of People</legend>
+                <label for="age1">Age 5 and Under</label><br/>
+                <input type="number" id="age1" name="age1" min="0" max="100"><br/>
+                <label for="age2">Age 6 to 11</label><br/>
+                <input type="number" id="age2" name="age2" min="0" max="100"><br/>
+                <label for="age3">Age 12 to 64</label><br/>
+                <input type="number" id="age3" name="age3" min="0" max="100"><br/>
+                <label for="age4">Senior (65 and Up)</label><br/>
+                <input type="number" id="age4" name="age4" min="0" max="100"><br/><br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment Options</legend>
+                I will be paying by...<br/>
+                <input type="checkbox" id="cash" name="cash" value="Cash">
+                <label for="cash"> Cash</label><br>
+                <input type="checkbox" id="check" name="check" value="Check">
+                <label for="check"> Check</label><br><br/>
+                <label for="message">Internal Notes</label><br/>
+                <textarea id="message" name="message" rows="7" cols="30"></textarea><br/><br/>
+                <input type ="image" src="images/submit.png" alt="Submit" name= "btnimage">
+            </fieldset>
+        </form>
+        </div><!-- Close form -->
+    </div><!-- Close content -->
+
+
+    <div id="sidebar">
+        <h2>Operating Hours</h2>
+        <h3>OPEN 365 DAYS A YEAR!</h3>
+        Monday through Saturday:
+            5:30 AM to 12:30 AM<br/>  
+        Sundays and Holidays:
+            7:00 AM to 12:30 AM<br/>
+
+        <h2>Fares and Rates</h2>
+        <h4>Check out our fares and rates <a href="index.html#fares">here.</a></h4>
+
+        <h2>Contact</h2>
+        <table>
+            <tr>
+                <th>Parking</th>
+                <td>1197 West Carson St.
+                    Pittsburgh, PA 15219</td>
+            </tr>
+            <tr>
+                <th>Mailing</th>
+                <td>1220 Grandview Ave.
+                    Pittsburgh, PA 15211</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>412-381-1665</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><a href="mailto:duq.incline@duquesneincline.org">duq.incline@duquesneincline.org</a></td>
+            </tr>
+            <tr>
+                <th>Website</th>
+                <td><a href="index.html" title="Link to home page of the Incline">duquesneincline.org</a></td>
+            </tr>
+        </table><!-- Close table -->
+		
+        <h2>Map</h2><!--embed map-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.599736677988!2d-80.0197992847335!3d40.439861162156475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f6af9e6ab935%3A0xe871d2bbc2032b83!2sDuquesne%20Incline!5e0!3m2!1sen!2shk!4v1617624921259!5m2!1sen!2shk" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br/>
+        
+        <h2>Accessibility</h2>
+        <div id="acc">
+            The Upper Station located at 1220 Grandview<br/>  
+            Ave, Pittsburgh, PA 15211 is wheelchair<br/>  
+            accessible. Our observation deck is also<br/>  
+            wheelchair accessible. The Historic (original)<br/>  
+            Incline cars can accommodate wheelchairs<br/> 
+            up to 25 inches in width.
+        </div>
+
+        <h2>Connect with Us</h2>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TheDuquesneIncline/" title="Link to Facebook page of the Incline"><img src="images/facebook.png" alt="Facebook Icon"></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=bSLvrz5GraI" title="Link to Youtube page of the Incline"><img src="images/youtube.png" alt="YouTube Icon"></a>
+        <a href="index.html#mailing" title="Link to join the mailing list">  Become a Member</a>
+	</div> <!--Close sidebar  -->
+
+
+    <footer>
+        &copy; Angela Chen & The Duquesne Incline<br/>
+    </footer>
+    </div>
+</body>
+
+</html>
