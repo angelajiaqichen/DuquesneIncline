@@ -1,2 +1,3 @@
 # DuquesneIncline
-Web Development Project for the Duquesne Incline
+Web Development Project for 67-250 Information Systems Milleux @ Carnegie Mellon University
+
