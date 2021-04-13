@@ -1,0 +1,412 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 100%; /* Generally set the font-size to 100% in the body - you can then change with em in the other areas */
+	line-height: 1.5em; /* The line-height property in CSS controls the space between lines of text. */
+	color: #000000; /* Hex Color Black */
+}
+
+/* links in general */
+a { 
+    color: #9E2A2B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #335C67;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #540B0E;
+    text-decoration: underline;
+}
+
+/* Title part */
+#top_row h1 { 
+    font-family: "Catamaran", sans-serif;
+    color: #9E2A2B; /* Auburn */
+    font-size: 3.75em;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 4px rgb(207, 170, 170);
+    font-weight: 900;
+}
+
+#top_row h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #540B0E;
+    font-size: 1em;
+    font-weight: 400px;
+    text-shadow: 1px 1px 1px rgb(243, 210, 210);
+}
+
+#top_row {
+    border-bottom: 1px dotted #540B0E;
+    padding: .5em .5em 3em .8em; /* top, right, bottom, left */
+}
+
+#top_row header {
+    margin-bottom: -2.5em;
+}
+
+#top_row nav {
+    float: right;
+}
+
+#top_row nav a {
+    font-size:1.125em;
+    font-weight: 400;
+    padding: 15px;
+    color: #000000;
+}
+
+#top_row nav a:hover {
+    background: #f6f6f6;
+    color: #335C67;
+}
+
+#top_row nav a.selected {
+    background: #f6f6f6;
+    color: #bbbbbb;
+}
+
+#top_row nav a.selected:hover {
+    background: #f6f6f6;
+    color: #b2d3c1;
+}
+
+/* Container */
+#container {
+    width: 87%;
+    margin: 10px auto;
+    border: 15px ridge #9E2A2B;
+}
+
+/* Content */
+#content {
+    font-family: "Montserrat", sans-serif;
+    float: left;
+    width: 69%;
+    padding: 1em;
+    border-right: 1px dotted #540B0E;
+}
+
+#content a{
+    text-decoration: underline;
+    color: #9E2A2B;
+}
+
+#content a:hover {
+    text-decoration: underline;
+    color: #335C67;
+}
+
+#content a:visited {
+    text-decoration: underline;
+    color: #540B0E;
+}
+
+#content h3 {
+    font-family: "Catamaran", sans-serif;
+    font-size: 1.55em;
+    margin: 10px 0 10px 10px;
+    font-weight: 500;
+    color: #540B0E;
+    background-color: rgb(241, 233, 216);
+    text-shadow: 2px 2px 2px rgb(243, 210, 210);
+}
+
+#content img{
+    float: left;
+    margin: 1em;
+}
+
+#content form {
+    width: 75%;
+    margin: 10px auto;
+    border: 1px solid rgb(240, 224, 191);
+    padding: 10px;
+    box-shadow: 0px 0px 7px #FFF3B0;
+}
+
+#content form legend{
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #9E2A2B;
+}
+
+#content form label{
+    font-weight: 500px;
+    text-align: center;
+}
+
+/* Sidebar */
+#sidebar {
+    float: left;
+    padding: 1em;
+    font-size: .75em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Sidebar Table */
+#sidebar table {
+    border: 1px solid rgb(240, 224, 191);
+    margin: 10px auto;
+    border-spacing: 3px;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+#sidebar th {
+    border: 1px solid rgb(240, 224, 191);
+    height: 40px;
+    font-weight: bold;
+}
+
+#sidebar td {
+    border: 1px solid rgb(240, 224, 191);
+    padding: 2px;
+    text-align: center;
+    letter-spacing: -0.55px;
+}
+
+/* Sidebar Links */
+#sidebar table a {
+    color: #9E2A2B;
+}
+
+#sidebar table a hover {
+    color: #335C67;
+}
+
+#sidebar table a:visited {
+    color: #540B0E;
+}
+
+#sidebar a {
+    text-decoration: underline dotted;
+}
+
+#sidebar img {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/* Sidebar Text */
+#sidebar h2 {
+    font-size: 1.6em;
+    border-bottom: 1px dotted #540B0E;
+    background-color:rgb(241, 233, 216);
+    color: #335C67;
+}
+
+#sidebar h3 {
+    font-size: 1.45em;
+    color: #335C67;
+    margin-top: -0.3em;
+    margin-bottom: -0.2em;
+}
+
+#sidebar h4 {
+    margin-bottom: -0.3em;
+    margin-top: -0.8em;
+    color: #335C67;
+}
+
+/* Accessibility */
+#acc {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    margin: 0;
+    padding: .5em;
+    color: #335C67;
+    font-variant: small-caps;
+    font-size: .813em;
+    text-align: center;
+    border-top: 1px dotted #540B0E;
+    background-color:rgb(241, 233, 216)
+}
+
+html { overflow-y: scrolll;}
+
+iframe{
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+/* Slideshow */
+/* modified from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+* {box-sizing:border-box}
+body {font-family: "Montserrat", sans-serif; margin:0}
+.mySlides {display: none}
+.block {
+    display:block;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+/* modified from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.slideshow-container {
+    width: 92%;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+/* modified from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: auto;
+    padding: 16px;
+    margin-left: 16px;
+    margin-right: -16px;
+    margin-top: 30%;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+/* Position the "next button" to the right */
+/* modified from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* modified from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.slideshowtext {
+    color: #335C67;
+    font-size: 10px;
+    padding: 8px 12px;
+    position: absolute;
+    margin-top: 67.4%;
+    width: 100%;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+/* modified from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* About the Incline */
+#bio {
+    margin-left: 2em;
+    font-size: 1em;
+}
+
+#biovid {
+    font-size:0.65em;
+    text-align: center;
+    color: #335C67;
+    margin: auto;
+}
+
+/* fares */
+#fares {
+    margin-left: 2em;
+    font-size: 0.9em;
+}
+
+#fares h4 {
+    margin-bottom: -1em;
+}
+
+#view {
+    margin-left: 2em;
+    font-size: 0.9em;
+    margin-bottom: -0.8em;
+}
+
+/* history */
+#history {
+    margin-left: 15px;
+}
+
+#histphotos {
+    font-size:0.65em
+}
+
+#histtext {
+    padding: 8px 60px;
+    position: absolute;
+    margin-top: 0.3%;
+    width: 30%;
+    left: 38%
+}
+
+#histvid {
+    font-size:0.65em;
+    text-align: center;
+}
+
+/* Four Types of Tours */
+#tabs {
+    font-family: "Montserrat", sans-serif;
+    background: rgb(241, 233, 216);
+    border: 1px solid #9E2A2B;
+}
+
+#tabs a {
+    font-family: "Catamaran", sans-serif;
+    text-decoration: none;
+    border-bottom: 1px dotted #335C67;
+    color: #9E2A2B;
+}
+
+#tabs a:hover {
+    color: #335C67;
+}
+
+#tabs a:visited {
+    color: #540B0E;
+}
+
